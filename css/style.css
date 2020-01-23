@@ -1,0 +1,24 @@
+body{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;   /*Amount of space between lines*/
+  padding:0;
+  margin: 0;
+  background-color: #D8D8D8;
+}
+
+/* . dot donates to class*/
+.container{
+  width: 80%;
+  margin: auto;   /* Moving content to middle*/
+  overflow: hidden;    /* So scroll bar doesn't show incase of overflow*/
+}
+
+/*Header*/
+header {
+  background:  #ff4d4d;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom:
+}
