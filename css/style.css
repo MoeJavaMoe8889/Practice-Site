@@ -7,11 +7,17 @@ body{
   background-color: #D8D8D8;
 }
 
+/* global stuff */
 /* . dot donates to class*/
 .container{
   width: 80%;
   margin: auto;   /* Moving content to middle*/
   overflow: hidden;    /* So scroll bar doesn't show incase of overflow*/
+}
+/* all ul on site to be margin and padding free so will be used globally */
+header ul{
+  margin: 0;
+  padding: 0;
 }
 
 /*Header*/
@@ -20,5 +26,86 @@ header {
   color:#ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom:
+  border-bottom: #ffffff	3px solid;  /* white border line for header*/
+}
+
+/* links in the navigation*/
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;  /*changing text in css isntead of mock up */
+  font-size: 15px;
+}
+
+/*making nav bar horizantal, and removing bullets from li */
+ header li{
+   float:left;        /*adjusts alignment*/
+   display: inline;    /*removes bullets*/
+   padding: 0 21px 0 21px;  /* top right bottom left  = separtes and adds padding between words*/
+ }
+
+/*moving brand id to left hand side*/
+header #brand{
+  float: left;
+}
+
+header #brand h1{
+  margin:0;
+}
+
+header nav{
+  float: right;       /*floats nav to right*/
+  margin-top: 10px;     /*originally little too high so shifted from top*/
+}
+
+/*Customizing safwat and home words in header*/
+header .highlight, header .current a{
+  color: #4d0000;
+  font-weight:bold;
+}
+
+/*adding hover functionality*/
+header a:hover {
+  color:#cccccc;
+  font-weight: bold;
+}
+
+/*showSection : mid section of front page*/
+#showSection{
+  min-height: 400px;    /*flexable and responsive height so min-height is best*/
+  flex-grow: auto;
+  background: url('../img/midSection.jpg') no-repeat;
+  color:#ffffff;
+  background-size: cover;   /*covers whole container*/
+}
+
+/* midSection customizing */
+#showSection h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+/* writing inside of midsection */
+#showSection p{
+  font-size: 20px;
+  font-style: italic;
+}
+/* newsletter customizing */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#ff4d4d;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 20px;
+}
+/* customizing newsletter button */
+#newsletter input[type="Email"]{
+  padding:4px;
+  height: 25px;
+  width: 240px;
 }
