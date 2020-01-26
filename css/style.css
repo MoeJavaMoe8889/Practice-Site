@@ -14,10 +14,20 @@ body{
   margin: auto;   /* Moving content to middle*/
   overflow: hidden;    /* So scroll bar doesn't show incase of overflow*/
 }
+
 /* all ul on site to be margin and padding free so will be used globally */
 header ul{
   margin: 0;
   padding: 0;
+}
+
+.Button1{
+  height: 38px;
+  background:#b30000;
+  border: 0;      /*This is for ridding of border on button*/
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff;
 }
 
 /*Header*/
@@ -109,4 +119,44 @@ header a:hover {
   padding:4px;
   height: 25px;
   width: 240px;
+}
+
+
+/* Boxes for three images on main page */
+#boxes{
+  margin-top: 20px;
+
+}
+
+.box{
+  float: left;
+  width:30%;
+  padding: 15px;
+  text-align: center;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* sidebar */
+aside{
+  float: right;
+  width: 40%;
+  margin-top: 10px;
+}
+
+/* main-col */
+article #main-col{
+  float: left;
+  width: 60%;
+
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color: #1a0000;
+  text-align: center;
 }
