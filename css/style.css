@@ -7,7 +7,7 @@ body{
   background-color: #D8D8D8;
 }
 
-/* global stuff */
+/* *****global stuff****** */
 /* . dot donates to class*/
 .container{
   width: 80%;
@@ -28,6 +28,14 @@ header ul{
   padding-left: 15px;
   padding-right: 15px;
   color: #ffffff;
+}
+
+.dark{
+  padding:15px;
+  background: #1a0000;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*Header*/
@@ -142,14 +150,14 @@ header a:hover {
 /* sidebar */
 aside{
   float: right;
-  width: 40%;
+  width: 30%;
   margin-top: 10px;
 }
 
 /* main-col */
-article #main-col{
+article#main-col{
   float: left;
-  width: 60%;
+  width: 65%;
 
 }
 
