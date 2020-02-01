@@ -161,10 +161,39 @@ article#main-col{
 
 }
 
+/* Projects */
+ul#projects li{
+  list-style: none;  /**Eleminates bulletins**/
+  padding:25px;
+  border:#cccccc solid 1px;
+  margin-bottom: 10px;
+  background: #e6e6e6;
+}
 footer{
   padding: 20px;
   margin-top: 20px;
   color:#ffffff;
   background-color: #1a0000;
   text-align: center;
+}
+/* media queries: for mobile device modification */
+/* 768px is usually tablet pixel sizes usually are */
+@media(max-width: 768px){
+  header #branding, header nav, header nav li, #newsletter h1, #newsletter form,
+  #boxes.box, article#main-col, aside#sideBar{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #showSection h1{
+    margin-top: 40px;
+  }
+  #newsletter button{
+    display: block;
+    width: 100%;
+  }
+  #newsletter form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }
